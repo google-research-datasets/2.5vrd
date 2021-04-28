@@ -4,7 +4,7 @@
 
 ## Download
 
-Coming soon
+See data/*.csv
 
 ## Data Description
 
