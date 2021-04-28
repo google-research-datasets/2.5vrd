@@ -1,10 +1,10 @@
 # 2.5D Visual Relationship Detection (2.5VRD)
 
-2.5VRD studies the depth and occlusion relationships between two arbitrary objects. When the two objects are from different images, the depth relationships still apply. For more details of the dataset, please read [this paper](https://arxiv.org/abs/2104.12727). 
+2.5VRD studies the depth and occlusion relationships between two arbitrary objects. In particular, there are two scenarios: within-image (depth and occlusion) and cross-image (depth only). For more details on the dataset, please read [this paper](https://arxiv.org/abs/2104.12727).
 
 ## Data Description
 
-The 2.5VRD dataset contains 110,894 images and 511,454 objects (bounding boxes and class names) borrowed from [Open Images Dataset V4](https://storage.googleapis.com/openimages/web/download_v4.html). We construct 219,570 pairs of objects from them and label the depth and occlusion relationships for each pair. The table below breaks the numbers into training, validation, and test sets for the within-image and cross-image scenarios. We collect exhaustive annotations for the validation and test sets and sparse labels for the training set.
+The 2.5VRD dataset contains 110,894 images and 511,454 objects (bounding boxes and class names) from the [Open Images V4](https://storage.googleapis.com/openimages/web/download_v4.html). 219,570 pairs of objects are annotated with the depth and occlusion relationships. The table below provides a breakdown of the number of instances in training, validation, and test sets for the within-image and cross-image scenarios. We collect exhaustive annotations for the validation and test sets and sparse annotations for the training set.
 
 |               |                | Training | Validation | Test   |
 |---------------|----------------|----------|------------|--------|
@@ -56,10 +56,10 @@ The 2.5VRD dataset contains 110,894 images and 511,454 objects (bounding boxes a
 
  
 ## Evaluation
-We provide comprehensive annotations for every pair of objects in the validation and test sets, allowing us to evaluate a model’s predictions using precision, recall, and the F-score. Please see the evaluation script (coming soon) for a description of the prediction format that your model should output.
+We provide exhaustive annotations for the validation and test sets (i.e., for every pair of objects), allowing us to evaluate a model’s predictions using precision, recall, and the F-score. Please see the evaluation script (coming soon) for a description of the prediction format that your model should output.
 
 ## Contact us
-If you have a technical question regarding the dataset, code or publication, please create an issue in this repository. This is the fastest way to reach us.
+If you have a question regarding our dataset, code, or publication, please create an issue in this repository. This is the fastest way to reach us.
 If you would like to share feedback or report concerns, please email us at 2.5vrd@google.com.
  
 
