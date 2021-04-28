@@ -8,7 +8,7 @@ See data/*.csv
 
 ## Data Description
 
-The 2.5VRD dataset contains 110,894 images and 511,454 objects (bounding boxes and class names) from the [Open Images V4](https://storage.googleapis.com/openimages/web/download_v4.html), where 219,570 pairs of objects are annotated with the depth and occlusion relationships. The table below provides a breakdown of the number of instances in training, validation, and test sets for within-image and cross-image scenarios. We collect exhaustive annotations for the validation and test sets and sparse annotations for the training set.
+The 2.5VRD dataset contains 110,894 images and 511,454 objects (bounding boxes and class names) from the [Open Images Dataset V4 (OID V4)](https://storage.googleapis.com/openimages/web/download_v4.html), where 219,570 pairs of objects are annotated with the depth and occlusion relationships. The table below provides a breakdown of the number of instances in training, validation, and test sets for within-image and cross-image scenarios. We collect exhaustive annotations for the validation and test sets and sparse annotations for the training set.
 
 |               |                | Training | Validation | Test   |
 |---------------|----------------|----------|------------|--------|
