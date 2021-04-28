@@ -1,8 +1,6 @@
 # 2.5D Visual Relationship Detection (2.5VRD)
 
-2.5VRD studies the depth and occlusion relationships between two arbitrary objects. When the two objects are from different images, the depth relationships still apply. 
-
-Please download the data from [github.com/google-research-datasets/2.5vrd/](https://github.com/google-research-datasets/2.5vrd). For more details of the dataset, please read [this paper](https://arxiv.org/abs/2104.12727). 
+2.5VRD studies the depth and occlusion relationships between two arbitrary objects. When the two objects are from different images, the depth relationships still apply. For more details of the dataset, please read [this paper](https://arxiv.org/abs/2104.12727). 
 
 ## Data Description
 
