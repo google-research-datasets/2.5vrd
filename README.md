@@ -2,7 +2,7 @@
 
 2.5VRD studies the depth and occlusion relationships between two arbitrary objects. In particular, there are two scenarios: within-image (depth and occlusion) and cross-image (depth only). For more details on the dataset, please read [this paper](https://arxiv.org/abs/2104.12727).
 
-## Download
+## Dataset
 
 See data/*.csv
 
