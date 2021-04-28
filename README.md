@@ -2,6 +2,10 @@
 
 2.5VRD studies the depth and occlusion relationships between two arbitrary objects. In particular, there are two scenarios: within-image (depth and occlusion) and cross-image (depth only). For more details on the dataset, please read [this paper](https://arxiv.org/abs/2104.12727).
 
+## Download
+
+Coming soon
+
 ## Data Description
 
 The 2.5VRD dataset contains 110,894 images and 511,454 objects (bounding boxes and class names) from the [Open Images V4](https://storage.googleapis.com/openimages/web/download_v4.html), where 219,570 pairs of objects are annotated with the depth and occlusion relationships. The table below provides a breakdown of the number of instances in training, validation, and test sets for within-image and cross-image scenarios. We collect exhaustive annotations for the validation and test sets and sparse annotations for the training set.
